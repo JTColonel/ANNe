@@ -5,15 +5,19 @@ To set-up your computer (Commands are specified in terms of yaourt tool on Arch 
       yaourt -S qtcreator
       yaourt -S qt5
 
+You will also need the librosa python library:
+
+      pip install librosa
+
 To build it on your machine:
 
 -Clone this directory:
 
-      git clone https://github.com/bensterl15/JTProject
+      git clone https://github.com/JTColonel/ANNe
 
 -Make a build directory on the same layer as this readme:
       
-      cd JTProject
+      cd ANNe
       mkdir build
 
 -Move into this directory:
@@ -22,7 +26,7 @@ To build it on your machine:
 
 -Run: 
       
-      qmake ../JTProject/JTProject.pro  (this generates a Makefile in the build directory)
+      qmake ../ANNe/ANNe.pro  (this generates a Makefile in the build directory)
 
 -Run: make (this generates an executable JTProject in the build folder)
 
@@ -32,4 +36,4 @@ To build it on your machine:
 
 -Run:
       
-      ./JTProject (this runs the application)
+      ./ANNe (this runs the application)
